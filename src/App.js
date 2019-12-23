@@ -51,40 +51,6 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        // let temp = "hahaha";
-        // const apigClient = apigClientFactory.newClient({
-        //     invokeUrl: 'https://d6au9pfrbf.execute-api.us-east-1.amazonaws.com/myStage', // REQUIRED
-        //     accessKey: 'AKIASCE7R46QMQOQDEW7', // REQUIRED
-        //     secretKey: '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', // REQUIRED
-        //     region: 'eu-east-1', // REQUIRED: The region where the API is deployed.
-        // });
-        //
-        // let params = {};
-        //
-        // let body = {};
-        //
-        // const additionalParams = {
-        //     headers: {
-        //         //  "content-type": 'application/json'
-        //     }
-        // };
-        // apigClient.invokeApi(params, '/', 'POST', body, additionalParams)
-        //     .then((data) => {
-        //         // Add success callback code here.
-        //         temp = data.data.body;
-        //         this.setState({message: temp});
-        //         console.log(data);
-        //         console.log(temp);
-        //     }).catch(function (result) {
-        //     // Add error callback code here.
-        //     console.log(result);
-        // });
-        //
-        // console.log("second temp");
-        // console.log(temp);
-        // //this.setState({message:temp});
-        //
-        //
     }
 
     onCollapse = collapsed => {
